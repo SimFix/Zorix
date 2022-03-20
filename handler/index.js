@@ -47,7 +47,7 @@ module.exports = async (client) => {
     });
     client.on("ready", async () => {
         // Register for a single guild
-        const guild = client.guilds.cache.get("934150538877083648")
+        const guild = client.guilds.cache.get("845011433653141524")
         await guild.commands.set(arrayOfSlashCommands).then((cmd) => {
             const getRoles = (commandName) => {
                 const permissions = arrayOfSlashCommands.find(
